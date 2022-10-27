@@ -1,6 +1,6 @@
 const loadingPage = document.querySelector('.loading-page');
 
-window.scrollTo(0, 0);
+window.scrollBy(0, 20000);
 
 function loadingAnimate(){
     setTimeout( () => {
